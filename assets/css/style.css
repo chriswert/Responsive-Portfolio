@@ -1,3 +1,4 @@
+
 body, html {
     background-image: url(../images/vintage-concrete.png);
     height: auto; 
@@ -43,6 +44,8 @@ ul {
     border: solid black 1px;
     background: #fff;   
     margin-top: 30px;
+    margin-bottom: 30px;
+    height: 100%
     }
 
 .My-Pic {
@@ -85,7 +88,7 @@ footer {
     color: white;
     background: #666;
     height: 50px;    
-    position: absolute;
+    position: fixed;
     left: 0;
     right: 0;
     bottom: 0;
@@ -193,8 +196,46 @@ form {
    .Rock {
        clear: both;
    }
+@media screen and (max-width: 980px ){
+    .Main-Body {
+        width: 980px; 
+    }
+}
 
+@media screen and (max-width: 768px ){
+    .Main-Body {
+        width: 700px;
+    }
+    .Contact {
+        width: 700px;
+    }
+    textarea {
+        width: 600px;
+        height: 100px
+    
+    
 
+}
 
-
-  
+@media screen and (max-width: 640px ){
+    .Main-Body {
+        width: 600px;
+          }
+    textarea {
+        width: 440px;
+        height: 100px;
+    }
+    ul {
+        margin-right: 10px;
+    }
+    .Contact {
+        width: 600px;
+    }
+    .My-Name {
+        margin-left: 10px;
+    }
+   
+    .My-Story {
+        font-size: 16px;
+    }
+}
