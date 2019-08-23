@@ -199,13 +199,13 @@ form {
    }
 @media screen and (max-width: 980px ){
     .Main-Body {
-        width: 980px; 
+        width: auto; 
     }
 }
 
 @media screen and (max-width: 768px ){
     .Main-Body {
-        width: 700px;
+        width: auto;
     }
     .Contact {
         width: 700px;
@@ -224,7 +224,8 @@ form {
 
 @media screen and (max-width: 640px ){
     .Main-Body {
-        width: 600px;
+       
+        width: auto;
         height: auto;
           }
     textarea {
@@ -243,5 +244,8 @@ form {
    
     .My-Story {
         font-size: 12px;
+    }
+    .Header {
+        position: static;
     }
 }
